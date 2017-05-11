@@ -15,4 +15,4 @@
 
 ## Status
 
-[![Build Status](https://github.com/Ginko-san/webScrapingWithPyton/blob/master/Assets/Images/v1-dev.svg)](https://travis-ci.org/twbs/bootstrap)
+[![Build Status](https://img.shields.io/badge/Status-Development-yellow.svg)](https://travis-ci.org/twbs/bootstrap)
