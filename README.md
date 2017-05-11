@@ -15,4 +15,4 @@
 
 ## Status
 
-[![Build Status](https://img.shields.io/travis/twbs/bootstrap/v4-dev.svg)](https://travis-ci.org/twbs/bootstrap)
+[![Build Status](url("Assets/Images/v1-dev.svg"))](https://travis-ci.org/twbs/bootstrap)
