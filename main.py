@@ -6,7 +6,7 @@ import urllib.error
 from bs4 import BeautifulSoup
 
 # Specify the url
-wiki = "https://en.wikipedia.org/wiki/List_of_state_and_union_territory_capitals_in_India"
+wiki = "http://www.dota2.com/heroes/"
 
 # Query the website and return the html to the variable 'page'
 page = urllib.request.urlopen(wiki)
@@ -14,4 +14,9 @@ page = urllib.request.urlopen(wiki)
 # Parse the html in the 'page' variable, and store it in Beautiful Soup format
 soup = BeautifulSoup(page, 'html.parser')
 
-print(soup.prettify())
+# print(soup.prettify())
+
+print(soup.find_all("div", class_="heroColLeft"))
+print(soup.find_all("div", class_="heroColMiddle"))
+print(soup.find_all("div", class_="heroColRight"))
+
